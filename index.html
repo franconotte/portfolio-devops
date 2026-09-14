@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tu Nombre — Portfolio DevOps</title>
+  <title>Franco Notte — Portfolio DevOps</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -12,7 +12,7 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#hero" class="nav-logo">TU_NOMBRE</a>
+    <a href="#hero" class="nav-logo">FRANCO_NOTTE</a>
     <ul class="nav-links">
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Proyectos</a></li>
@@ -25,12 +25,12 @@
   <!-- HERO -->
   <section id="hero">
     <p class="hero-tag">👋 Hola, soy</p>
-    <h1 class="hero-name">Tu <span>Nombre</span></h1>
-    <p class="hero-role">DevOps Engineer</p>
+    <h1 class="hero-name">Franco <span>Notte</span></h1>
+    <p class="hero-role">Analista en TI · DevOps</p>
     <p class="hero-desc">
-      <!-- TODO: escribí una descripción breve sobre vos, tu enfoque y lo que te apasiona -->
-      Estudiante de DevOps apasionado por la automatización, la infraestructura como código
-      y las prácticas de entrega continua. Actualmente completando el Certificado DevOps en ORT ATI.
+      Analista en Tecnologías de la Información en formación en ORT Uruguay, cursando el Certificado DevOps.
+      Me interesa automatizar procesos, trabajar con contenedores y construir software de punta a punta,
+      del código al deploy.
     </p>
     <div class="hero-cta">
       <a href="#projects" class="btn btn-primary">Ver proyectos</a>
@@ -52,22 +52,8 @@
           Control de versiones
         </div>
         <ul class="skill-list">
-          <!-- TODO: editá los tags con tus herramientas reales -->
           <li class="skill-tag">Git</li>
           <li class="skill-tag">GitHub</li>
-          <li class="skill-tag">GitLab</li>
-        </ul>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card-title">
-          <span class="skill-dot"></span>
-          CI/CD
-        </div>
-        <ul class="skill-list">
-          <li class="skill-tag">GitHub Actions</li>
-          <li class="skill-tag">Jenkins</li>
-          <li class="skill-tag">ArgoCD</li>
         </ul>
       </div>
 
@@ -78,44 +64,53 @@
         </div>
         <ul class="skill-list">
           <li class="skill-tag">Docker</li>
-          <li class="skill-tag">Kubernetes</li>
-          <li class="skill-tag">Helm</li>
+          <li class="skill-tag">Docker Compose</li>
         </ul>
       </div>
 
       <div class="skill-card">
         <div class="skill-card-title">
           <span class="skill-dot"></span>
-          Cloud & IaC
-        </div>
-        <ul class="skill-list">
-          <li class="skill-tag">AWS</li>
-          <li class="skill-tag">Terraform</li>
-          <li class="skill-tag">Ansible</li>
-        </ul>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card-title">
-          <span class="skill-dot"></span>
-          Scripting
+          Scripting y Linux
         </div>
         <ul class="skill-list">
           <li class="skill-tag">Bash</li>
-          <li class="skill-tag">Python</li>
-          <li class="skill-tag">YAML</li>
+          <li class="skill-tag">Linux</li>
+          <li class="skill-tag">WSL</li>
         </ul>
       </div>
 
       <div class="skill-card">
         <div class="skill-card-title">
           <span class="skill-dot"></span>
-          Observabilidad
+          Backend
         </div>
         <ul class="skill-list">
-          <li class="skill-tag">Prometheus</li>
-          <li class="skill-tag">Grafana</li>
-          <li class="skill-tag">ELK Stack</li>
+          <li class="skill-tag">C#</li>
+          <li class="skill-tag">.NET 8</li>
+          <li class="skill-tag">PostgreSQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <span class="skill-dot"></span>
+          Frontend
+        </div>
+        <ul class="skill-list">
+          <li class="skill-tag">React</li>
+          <li class="skill-tag">TypeScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <span class="skill-dot"></span>
+          Testing
+        </div>
+        <ul class="skill-list">
+          <li class="skill-tag">Postman</li>
+          <li class="skill-tag">xUnit</li>
         </ul>
       </div>
 
@@ -132,50 +127,45 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-name">Pipeline CI/CD</span>
-          <!-- TODO: reemplazá # con el link real del proyecto -->
-          <a href="#" class="project-link">↗ ver repo</a>
+          <span class="project-name">GymFlow</span>
         </div>
         <p class="project-desc">
-          <!-- TODO: describí tu proyecto real -->
-          Pipeline automatizado con GitHub Actions que ejecuta tests, build de imagen Docker
-          y deploy a un cluster de Kubernetes en cada push a main.
+          Proyecto final de la carrera, en equipo: sistema de gestión para gimnasios (socios, cuotas, clases y asistencias). API en .NET 8 con PostgreSQL y frontend en React, todo con Docker.
         </p>
         <div class="project-tags">
-          <span class="project-tag">GitHub Actions</span>
+          <span class="project-tag">.NET 8</span>
+          <span class="project-tag">PostgreSQL</span>
+          <span class="project-tag">React</span>
           <span class="project-tag">Docker</span>
-          <span class="project-tag">Kubernetes</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-name">Infraestructura con Terraform</span>
-          <a href="#" class="project-link">↗ ver repo</a>
+          <span class="project-name">Mi primera imagen Docker</span>
+          <a href="https://hub.docker.com/r/fnotte/myfirstapp" class="project-link" target="_blank">↗ ver en Docker Hub</a>
         </div>
         <p class="project-desc">
-          Definición de infraestructura en AWS usando Terraform: VPC, EC2, RDS y S3
-          con gestión de estado remoto en S3 + DynamoDB.
+          App Flask dockerizada y publicada en Docker Hub.
         </p>
         <div class="project-tags">
-          <span class="project-tag">Terraform</span>
-          <span class="project-tag">AWS</span>
-          <span class="project-tag">IaC</span>
+          <span class="project-tag">Docker</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Flask</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-header">
           <span class="project-name">Portfolio DevOps</span>
-          <a href="#" class="project-link">↗ ver repo</a>
+          <a href="https://github.com/franconotte/portfolio-devops" class="project-link" target="_blank">↗ ver repo</a>
         </div>
         <p class="project-desc">
-          Este mismo portfolio: publicado con GitHub Pages y GitHub Actions.
-          Deploy automático en cada push a main.
+          Este portfolio: versionado con Git y servido con nginx en Docker.
         </p>
         <div class="project-tags">
-          <span class="project-tag">GitHub Pages</span>
-          <span class="project-tag">GitHub Actions</span>
+          <span class="project-tag">Git</span>
+          <span class="project-tag">Docker</span>
           <span class="project-tag">HTML/CSS</span>
         </div>
       </div>
@@ -192,20 +182,18 @@
     <div class="edu-list">
 
       <div class="edu-item">
-        <span class="edu-year">2024 — 2025</span>
+        <span class="edu-year">2026</span>
         <div>
           <p class="edu-title">Certificado DevOps</p>
-          <!-- TODO: completá con tu institución real -->
           <p class="edu-institution">ORT ATI — Escuela de Tecnología</p>
         </div>
       </div>
 
       <div class="edu-item">
-        <!-- TODO: agregá tu educación real -->
-        <span class="edu-year">20XX — 20XX</span>
+        <span class="edu-year">2023 — 2026</span>
         <div>
-          <p class="edu-title">Tu título o carrera</p>
-          <p class="edu-institution">Tu institución</p>
+          <p class="edu-title">Analista en Tecnologías de la Información</p>
+          <p class="edu-institution">Universidad ORT Uruguay</p>
         </div>
       </div>
 
@@ -222,21 +210,20 @@
       ¿Tenés una oportunidad o proyecto interesante? Escribime.
     </p>
     <div class="contact-links">
-      <!-- TODO: reemplazá los href con tus links reales -->
-      <a href="mailto:tu@email.com" class="contact-link">
-        <span class="contact-icon">✉</span> tu@email.com
+      <a href="mailto:franconotte@icloud.com" class="contact-link">
+        <span class="contact-icon">✉</span> franconotte@icloud.com
       </a>
-      <a href="https://github.com/tu-usuario" class="contact-link" target="_blank">
+      <a href="https://github.com/franconotte" class="contact-link" target="_blank">
         <span class="contact-icon">⌥</span> GitHub
       </a>
-      <a href="https://linkedin.com/in/tu-usuario" class="contact-link" target="_blank">
+      <a href="https://www.linkedin.com/in/franconotte" class="contact-link" target="_blank">
         <span class="contact-icon">◈</span> LinkedIn
       </a>
     </div>
   </section>
 
   <footer>
-    Hecho con Git, GitHub Pages y mucho <span>☕</span> — <span>TU_NOMBRE</span>
+    Hecho con Git, GitHub Pages y mucho <span>☕</span> — <span>Franco Notte</span>
   </footer>
 
 
