@@ -3,9 +3,11 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage --coverage.reporter=lcov --coverage.reporter=text"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.0",
     "vitest": "^2.0.0"
   }
 }
